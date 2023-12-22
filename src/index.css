@@ -61,31 +61,32 @@ a {
   width: 100%;
   border-bottom: 1px solid #EAECF0;
   z-index: 999;
-
-  .header-left {
-    width: 104px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-right: 1px solid #EAECF0;
-    flex-shrink: 0;
-  }
-
-  .header-right {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 24px;
-    width: 100%;
-
-    .user-profile {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-    }
-  }
 }
+
+.header-left {
+  width: 104px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #EAECF0;
+  flex-shrink: 0;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  width: 100%;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
 
 .dashboard-container {
   width: 100vw;
