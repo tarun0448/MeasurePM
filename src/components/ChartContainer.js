@@ -45,14 +45,14 @@ const ChartContainer = ({ chartType, chartHeading, chartSpan }) => {
         <div className={`${chartSpan ? chartSpan : ''} chart-container`}>
             <div className="chart-container-top">
                 <div className='w-full'>
-                <div className='chart-header'>
-                    <p>{chartHeading}</p>
-                    <ImageIcon src={dotVerticalIcon} alt="Icon" width={20} height={20} />
-                </div>
-                <div className='chart-dropdown-options'>
-                    <Dropdown title="Chosse client" options={options} />
-                    <Dropdown title="Choose auth" options={options} />
-                </div>
+                    <div className='chart-header'>
+                        <p>{chartHeading}</p>
+                        <ImageIcon src={dotVerticalIcon} alt="Icon" width={20} height={20} />
+                    </div>
+                    <div className='chart-dropdown-options'>
+                        <Dropdown title="Chosse client" options={options} />
+                        <Dropdown title="Choose auth" options={options} />
+                    </div>
                 </div>
                 <div className="chart" >
                     {chartContent}

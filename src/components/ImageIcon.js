@@ -21,10 +21,4 @@ ImageIcon.propTypes = {
   className: PropTypes.string,
 };
 
-ImageIcon.defaultProps = {
-  width: 24,
-  height: 24,
-  className: '',
-};
-
 export default ImageIcon;

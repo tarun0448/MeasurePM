@@ -120,7 +120,6 @@ a {
 
     .dashboard-charts {
       display: grid;
-      /* grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); */
       grid-template-rows: minmax(400px, 500px);
       gap: 24px;
     }
@@ -158,6 +157,7 @@ a {
   flex-shrink: 0;
   left: 0;
   overflow-y: scroll;
+  padding-bottom: 72px;
 
   .sidebar-footer {
     margin-top: 20px;
@@ -184,14 +184,9 @@ a {
       }
     }
   }
-
   li.tab.active {
     background: #D1E0FF;
   }
-
-  /* li.tab:hover {
-    background: #D1E0FF;
-  } */
 }
 
 .sidebar::-webkit-scrollbar {
@@ -206,7 +201,6 @@ a {
   border-radius: 12px;
   border: 1px solid #EAECF0;
   background: #FFF;
-  /* Shadows/shadow-xs */
   box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
   justify-content: space-between;
 

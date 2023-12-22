@@ -41,11 +41,4 @@ CustomButton.propTypes = {
   disabled: PropTypes.bool,
 };
 
-CustomButton.defaultProps = {
-  color: 'blue', // Default color if not specified
-  icon: null,
-  onClick: () => {},
-  disabled: false,
-};
-
 export default CustomButton;

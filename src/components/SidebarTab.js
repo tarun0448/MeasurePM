@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-// import './SidebarTab.css'; // Style file for the sidebar tab
 
 const SidebarTab = ({ title, onClick, active, icon, path}) => {
   return (

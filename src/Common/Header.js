@@ -1,11 +1,9 @@
 import React from 'react';
 import mpmTextLogo from "../assets/mpm-text-logo.svg"
 import mpmMiniLogo from "../assets/mpm-mini-logo.svg"
-
 import notificationBellIcon from "../assets/bell-01.svg"
 import userImage from "../assets/user-image.svg"
 import Avatar from '../components/Avatar';
-
 
 const Header = () => {
   return (

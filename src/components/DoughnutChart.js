@@ -91,7 +91,7 @@ const DoughnutChart = () => {
       const height = chart.height;
       const ctx = chart.ctx;
       ctx.restore();
-      const text = 'Cente'; // Your text to be displayed in the center
+      const text = 'Center'; // Your text to be displayed in the center
       const fontSize = 16; // Font size for the text
       ctx.font = fontSize + 'px';
       while (ctx.measureText(text).width > width) {

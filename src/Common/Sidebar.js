@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import './Sidebar.css'; // Style file for the sidebar
 import SidebarTab from '../components/SidebarTab';
 import dashboardIcon from "../assets/mpm-sidebar-icons/nav-item-button-1.svg"
 import clientsIcon from "../assets/mpm-sidebar-icons/nav-item-button-2.svg"
@@ -89,7 +88,7 @@ const Sidebar = () => {
           path={'/rolenavigation'}
 
         />
-                <SidebarTab
+        <SidebarTab
           title="Settings"
           onClick={() => handleTabClick('Settings')}
           active={activeTab === 'Settings'}
@@ -107,8 +106,8 @@ const Sidebar = () => {
         />
 
       </ul>
-      <ul className='sidebar-footer'> 
-      <SidebarTab
+      <ul className='sidebar-footer'>
+        <SidebarTab
           title="Upgrade"
           onClick={() => handleTabClick('Upgrade')}
           active={activeTab === 'Upgrade'}
@@ -130,16 +129,3 @@ const Sidebar = () => {
 };
 
 export default Sidebar;
-
-// <li>Dashboard</li>
-//         <li>Clients</li>
-//         <li>Employee</li>
-//         <li>Appointments</li>
-//         <li>My View</li>
-//         <li>Billing</li>
-//         <li>Payroll</li>
-//         <li>Role Navigation</li>
-//         <li>Setting</li>
-//         <li>Reports</li>
-//         <li>Upgrade</li>
-//         <li>Support</li>
