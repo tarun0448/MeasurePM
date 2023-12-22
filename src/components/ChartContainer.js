@@ -45,7 +45,7 @@ const ChartContainer = ({ chartType, chartHeading, chartSpan }) => {
         <div className={`${chartSpan ? chartSpan : ''} chart-container`}>
             <div className="chart-container-top">
                 <div className='w-full'>
-                    <div className='chart-header'>
+                    <div className='chart-header flex'>
                         <p>{chartHeading}</p>
                         <ImageIcon src={dotVerticalIcon} alt="Icon" width={20} height={20} />
                     </div>
