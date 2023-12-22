@@ -15,7 +15,7 @@ const Header = () => {
         <div className="header-main-logo">
           <img className="mpm-icon" src={mpmTextLogo} alt="mpm-logo" />
         </div>
-        <div className="user-profile">
+        <div className="user-profile flex">
           <img className="notification-icon" src={notificationBellIcon} alt="notification" />
           <Avatar imageUrl={userImage} altText="User Profile Image" size="40px" />
         </div>
